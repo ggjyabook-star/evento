@@ -1,6 +1,6 @@
 // State management
 let selectedConnectivity = 'A'; // 'A' or 'B'
-const basePrice = 15000;
+const basePrice = 16000;
 const connectivityPrices = {
     'A': 0,
     'B': 1500
