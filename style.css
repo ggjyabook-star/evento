@@ -967,7 +967,7 @@ body {
     }
     
     .hero-image-overlay p {
-        font-size: 0.92rem;
+        font-size: 1.02rem;
     }
     
     .card {
@@ -984,11 +984,11 @@ body {
     }
     
     .intro-text h2 {
-        font-size: 1.35rem;
+        font-size: 1.45rem;
     }
     
     .intro-text p {
-        font-size: 0.95rem;
+        font-size: 1.05rem;
     }
 }
 
@@ -1002,11 +1002,11 @@ body {
     }
     
     .hero-title {
-        font-size: 1.8rem;
+        font-size: 1.85rem;
     }
     
     .hero-subtitle {
-        font-size: 1rem;
+        font-size: 1.1rem;
         margin-bottom: 1.5rem;
     }
     
@@ -1026,11 +1026,11 @@ body {
     }
     
     .card-title {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     
     .card-description {
-        font-size: 0.95rem;
+        font-size: 1.05rem;
         margin-bottom: 1.25rem;
     }
     
@@ -1045,11 +1045,11 @@ body {
     }
     
     .feature-content h3 {
-        font-size: 0.95rem;
+        font-size: 1.08rem;
     }
     
     .feature-content p {
-        font-size: 0.92rem;
+        font-size: 1.02rem;
     }
     
     .option-card {
@@ -1057,25 +1057,25 @@ body {
     }
     
     .option-title {
-        font-size: 1rem;
+        font-size: 1.08rem;
     }
     
     .option-price-tag {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
         padding: 0.1rem 0.4rem;
     }
     
     .option-desc {
-        font-size: 0.92rem;
+        font-size: 1.02rem;
     }
     
     .option-warning, .option-success {
-        font-size: 0.88rem;
+        font-size: 0.98rem;
         padding: 0.5rem 0.7rem;
     }
     
     .deliverable-card p {
-        font-size: 0.88rem;
+        font-size: 0.95rem;
     }
     
     .highlight-item {
@@ -1083,11 +1083,11 @@ body {
     }
     
     .highlight-item h4 {
-        font-size: 0.92rem;
+        font-size: 1.02rem;
     }
     
     .highlight-item p {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     
     .mobile-summary-bar {
