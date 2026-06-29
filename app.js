@@ -34,6 +34,7 @@ function updateSummary() {
     const connectivityText = document.getElementById('selected-connectivity-text');
     const connectivityCostText = document.getElementById('connectivity-cost-text');
     const totalPriceText = document.getElementById('total-price');
+    const mobileTotalPriceText = document.getElementById('mobile-total-price');
     
     const cost = connectivityPrices[selectedConnectivity];
     const total = basePrice + cost;
@@ -52,6 +53,9 @@ function updateSummary() {
     }
     
     totalPriceText.textContent = formattedTotal;
+    if (mobileTotalPriceText) {
+        mobileTotalPriceText.textContent = formattedTotal;
+    }
 }
 
 // PDF Export Functionality
