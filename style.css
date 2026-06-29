@@ -29,6 +29,10 @@
     --container-width: 1200px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -120,6 +124,16 @@ body {
     align-items: center;
     gap: 0.5rem;
     letter-spacing: 0.05em;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+.proposal-badge:hover {
+    background: rgba(6, 182, 212, 0.16);
+    border-color: rgba(6, 182, 212, 0.4);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(6, 182, 212, 0.1);
 }
 
 /* Hero Section */
@@ -932,6 +946,10 @@ body {
 }
 
 @media (max-width: 767px) {
+    .bg-glow {
+        display: none !important;
+    }
+    
     .hero-title {
         font-size: 2.1rem;
     }
