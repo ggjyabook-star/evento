@@ -209,7 +209,7 @@ body {
 }
 
 .hero-image-overlay p {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     color: var(--text-secondary);
     max-width: 600px;
     margin: 0;
@@ -281,7 +281,7 @@ body {
 
 .intro-text p {
     color: var(--text-secondary);
-    font-size: 0.95rem;
+    font-size: 0.98rem;
     margin-bottom: 1rem;
     line-height: 1.6;
 }
@@ -296,7 +296,7 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: 600;
     color: var(--text-primary);
     background: rgba(255, 255, 255, 0.03);
@@ -412,7 +412,7 @@ body {
 
 .card-description {
     color: var(--text-secondary);
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     margin-bottom: 1.75rem;
     line-height: 1.5;
 }
@@ -453,14 +453,14 @@ body {
 }
 
 .feature-content h3 {
-    font-size: 0.95rem;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--text-primary);
     margin-bottom: 0.25rem;
 }
 
 .feature-content p {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     color: var(--text-secondary);
     line-height: 1.5;
 }
@@ -540,7 +540,7 @@ body {
 }
 
 .option-title {
-    font-size: 1rem;
+    font-size: 1.05rem;
     font-weight: 600;
     color: var(--text-primary);
 }
@@ -555,7 +555,7 @@ body {
 }
 
 .option-desc {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     color: var(--text-secondary);
     margin-bottom: 0.5rem;
 }
@@ -564,7 +564,7 @@ body {
     display: flex;
     gap: 0.4rem;
     align-items: flex-start;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     padding: 0.5rem 0.7rem;
     border-radius: 8px;
 }
@@ -622,7 +622,7 @@ body {
 }
 
 .deliverable-card p {
-    font-size: 0.78rem;
+    font-size: 0.82rem;
     color: var(--text-secondary);
     line-height: 1.4;
 }
@@ -671,14 +671,14 @@ body {
 }
 
 .highlight-item h4 {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     font-weight: 600;
     color: var(--text-primary);
     margin-bottom: 0.2rem;
 }
 
 .highlight-item p {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     color: var(--text-secondary);
     line-height: 1.4;
 }
@@ -877,17 +877,14 @@ body {
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 991px) {
-    /* Mobile Spacing adjustments */
     body {
-        padding-bottom: 90px; /* Space for the floating bottom bar */
+        padding-bottom: 90px;
     }
     
-    /* Hide the default desktop summary card to avoid redundancy */
     .summary-column {
         display: none;
     }
     
-    /* Show Mobile Floating Bar */
     .mobile-summary-bar {
         display: flex;
         position: fixed;
@@ -952,7 +949,7 @@ body {
     }
     
     .hero-image-overlay p {
-        font-size: 0.8rem;
+        font-size: 0.92rem; /* INCREASED for mobile readability */
     }
     
     .card {
@@ -961,7 +958,7 @@ body {
     }
     
     .intro-visual {
-        display: none; /* Hide big icon on mobile to save vertical space */
+        display: none;
     }
     
     .intro-card {
@@ -973,7 +970,7 @@ body {
     }
     
     .intro-text p {
-        font-size: 0.88rem;
+        font-size: 0.95rem; /* INCREASED for mobile readability */
     }
 }
 
@@ -991,7 +988,7 @@ body {
     }
     
     .hero-subtitle {
-        font-size: 0.95rem;
+        font-size: 1rem; /* INCREASED for mobile readability */
         margin-bottom: 1.5rem;
     }
     
@@ -1011,11 +1008,11 @@ body {
     }
     
     .card-title {
-        font-size: 1.15rem;
+        font-size: 1.2rem; /* INCREASED for mobile readability */
     }
     
     .card-description {
-        font-size: 0.82rem;
+        font-size: 0.95rem; /* INCREASED for mobile readability */
         margin-bottom: 1.25rem;
     }
     
@@ -1030,11 +1027,11 @@ body {
     }
     
     .feature-content h3 {
-        font-size: 0.88rem;
+        font-size: 0.95rem; /* INCREASED for mobile readability */
     }
     
     .feature-content p {
-        font-size: 0.8rem;
+        font-size: 0.92rem; /* INCREASED for mobile readability (was 0.8rem) */
     }
     
     .option-card {
@@ -1042,21 +1039,25 @@ body {
     }
     
     .option-title {
-        font-size: 0.9rem;
+        font-size: 1rem; /* INCREASED for mobile readability */
     }
     
     .option-price-tag {
-        font-size: 0.75rem;
+        font-size: 0.8rem; /* INCREASED for mobile readability */
         padding: 0.1rem 0.4rem;
     }
     
     .option-desc {
-        font-size: 0.78rem;
+        font-size: 0.92rem; /* INCREASED for mobile readability (was 0.78rem) */
     }
     
     .option-warning, .option-success {
-        font-size: 0.75rem;
-        padding: 0.4rem 0.6rem;
+        font-size: 0.88rem; /* INCREASED for mobile readability (was 0.75rem) */
+        padding: 0.5rem 0.7rem;
+    }
+    
+    .deliverable-card p {
+        font-size: 0.88rem; /* INCREASED for mobile readability */
     }
     
     .highlight-item {
@@ -1064,11 +1065,11 @@ body {
     }
     
     .highlight-item h4 {
-        font-size: 0.85rem;
+        font-size: 0.92rem; /* INCREASED for mobile readability */
     }
     
     .highlight-item p {
-        font-size: 0.78rem;
+        font-size: 0.9rem; /* INCREASED for mobile readability (was 0.78rem) */
     }
     
     .mobile-summary-bar {
@@ -1328,7 +1329,6 @@ body {
         font-size: 7.5pt !important;
     }
     
-    /* Re-enable summary layout for printing since it's hidden on mobile display */
     .summary-column {
         display: block !important;
         page-break-inside: avoid;
